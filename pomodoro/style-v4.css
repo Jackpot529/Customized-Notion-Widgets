@@ -4,7 +4,8 @@
 
 body {
   font-family: 'Roboto Mono', monospace;
-  // background-color: #ffffff;
+  // background-color: #191919;
+  color: #ffffff;
 }
 
 #root {
