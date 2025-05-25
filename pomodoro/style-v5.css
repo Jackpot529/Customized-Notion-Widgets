@@ -34,6 +34,11 @@ button:focus {
   -moz-box-shadow: 0.2em 0.2em rgb(40, 40, 40) inset;
 }
 
+/* Make button icons white */
+button > * {
+  color: white;
+  fill: white;
+}
 /* Clock Body */
 
 .clock-container {
