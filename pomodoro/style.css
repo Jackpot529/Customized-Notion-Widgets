@@ -15,15 +15,15 @@ body {
 
 button,
 button:active {
-  background-color: rgb(35,35,35); // button top color 
+  background-color: rgb(234,178,156);
   border: none;
   width: 42px;
   height: 40px;
   border-radius: 100%;
   text-align: center;
-  box-shadow: 0.2em 0.2em rgb(35,35,35); // button shadow color 
-  -webkit-box-shadow: 0.2em 0.2em rgb(35,35,35);
-  -moz-box-shadow: 0.2em 0.2em rgb(35,35,35);
+  box-shadow: 0.2em 0.2em rgb(194, 91, 44);
+  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
+  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
 }
 
 button:focus {
