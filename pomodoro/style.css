@@ -2,6 +2,16 @@
 
 /* General */
 
+
+:root {
+  // notion dark mode bg color: rgb(25,25,25)
+  --button-background-color: rgb(25,25,25)
+  --button-color: rgb(35,35,35)
+}
+
+
+
+
 body {
   font-family: 'Roboto Mono', monospace;
  // background-color: #c2e6e8;
@@ -15,15 +25,15 @@ body {
 
 button,
 button:active {
-  background-color: rgb(234,178,156);
+  background-color: var(--button-color); // button top color 
   border: none;
   width: 42px;
   height: 40px;
   border-radius: 100%;
   text-align: center;
-  box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
+  box-shadow: 0.2em 0.2em var(--button-background-color); // button shadow color 
+  -webkit-box-shadow: 0.2em 0.2em var(--button-background-color);
+  -moz-box-shadow: 0.2em 0.2em var(--button-background-color);
 }
 
 button:focus {
